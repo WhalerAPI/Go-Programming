@@ -2,16 +2,24 @@ package main
 
 import (
 	"fmt"
-	"golangtour/channels"
-	"golangtour/tree"
+	"golang/channels"
+	"golang/testMod"
+	"golang/tree"
 	"reflect"
 	"slices"
+
 )
 
 var p = fmt.Println
 var pf = fmt.Printf
 
 func main() {
+
+
+	// 'fmpf' is 'fmt.Printf()' shortcut
+
+
+	fmt.Println(testmod.Greet("Keith"))
 
 	msg := "Hello, gopher!"
 	ch := make(chan string)
@@ -27,5 +35,19 @@ func main() {
 	fmt.Printf("Type of slice is: %v\n", reflect.TypeOf(s))
 	fmt.Printf("Type of elements in slice is: %v\n", reflect.TypeOf(s[0]))
 	fmt.Printf("Type of elements in slice is: %T\n", s[0])
+
+
+	fmt.Println("\nTree Sort: ")
+	var t tree.Tree 
+	fmt.Println(t)
+
+
+	fmt.Println("Slices: ")
+	fmt.Println(s)
+	i := 33
+	w := append(s, i)
+	fmt.Println(w)
+
+
 
 }
