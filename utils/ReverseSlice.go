@@ -9,5 +9,3 @@ func Reverse(a []int) []int {
 	}
 	return b
 }
-
-
