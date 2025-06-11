@@ -38,7 +38,7 @@ func appendValues(values []int, t *Tree) []int {
 	return values
 }
 
-// Go's hybrid OOP/Functional model suggests using methods over pure functions in this instance. 
+// Go's hybrid OOP/Functional model suggests using methods over pure functions in this instance.. 
 
 func (t *Tree) AppendValues(val []int) []int {
 	if t != nil {
