@@ -15,15 +15,14 @@ type Stack struct {
 	length int
 }
 
-func(s *Stack) Push(data int) any {
-	new := &Node {
+func(s *Stack) Push(data int) {
+	newNode := &Node {
 		data: data,
 		next: s.top,
 	}
-	s.top = new
+	s.top = newNode
 	s.length++
-	fmt.Println(&new)
-	return &new
+	fmt.Println(newNode.data)
 }
 
 func (s *Stack) Pop() (int, bool) {
@@ -33,6 +32,7 @@ func (s *Stack) Pop() (int, bool) {
 	val := s.top.data 
 	s.top = s.top.next // move item from top - down 1 node.
 	s.length--
+	fmt.Printf("Top of the stack is: %#v\n", s.top.data)
 	return val, true
 }
 
