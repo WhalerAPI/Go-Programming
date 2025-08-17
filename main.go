@@ -13,17 +13,7 @@ func main() {
 
 	s := functions.CollectStuff()
 	fmt.Println("\nHere is a collection of stuff: \n\n", s)
-<<<<<<< HEAD
-
-
 	
-	// use treesort 
-	// have an array var a []int{1,2,3,4,23,4,5,}
-	// fmt.Println(TreeSort(a))
-	// result {1,2,3,4,4,5,23}
-=======
->>>>>>> 29fecc0 (commiting binary search tree and linked list)
-
 	var a []int
 	a = []int{1, 43, 64, 22, 34, 78}
 
@@ -43,9 +33,9 @@ func main() {
 	fmt.Println(L.MakeSlice())
 
 
-	// or instead of creating your own linked list you can alternatively use the
-	// Go standard libary 1.18+ and import "container/list" and instantiate a list.New()
-	// see example below 
+	// Instead of creating your own linked list you can use the
+	// Go standard libary 1.18+ and import "container/list" then instantiate a list.New() 
+	// Below is an example. Notice "container/list" methods are what I also conveniently named my methods for my type.
 
 	ll := list.New()
 	ll.PushFront(13333)
