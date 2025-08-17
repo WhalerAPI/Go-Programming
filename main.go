@@ -35,7 +35,7 @@ func main() {
 
 	// Instead of creating your own linked list you can use the
 	// Go standard libary 1.18+ and import "container/list" then instantiate a list.New() 
-	// Below is an example. Notice "container/list" methods are what I also conveniently named my methods for my type.
+	// Below is an example. Notice "container/list" methods provided are the same as the ones I created.
 
 	ll := list.New()
 	ll.PushFront(13333)
