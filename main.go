@@ -33,9 +33,8 @@ func main() {
 	fmt.Println(L.MakeSlice())
 
 
-	// Instead of creating your own linked list you can use the
-	// Go standard libary 1.18+ and import "container/list" then instantiate a list.New() 
-	// Below is an example. Notice "container/list" methods provided are the same as the ones I created.
+	// Or use Go standard lib; import "container/list"; instantiate a list.New() 
+	
 
 	ll := list.New()
 	ll.PushFront(13333)
