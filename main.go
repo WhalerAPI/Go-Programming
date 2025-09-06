@@ -33,6 +33,19 @@ func main() {
 	fmt.Println(L.MakeSlice())
 
 
+	data := TodoPageData{
+		PageTitle: "My TODO list",
+		Todos: []Todo{
+			{Title: "Task 1", Done: false},
+			{Title: "Task 2", Done: true},
+			{Title: "Task 3", Done: true},
+		},
+	}
+
+
+	fmt.Printf("%+v\n", data)
+
+
 	// Or use Go standard lib; import "container/list"; instantiate a list.New() 
 	
 
