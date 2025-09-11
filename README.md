@@ -2,27 +2,19 @@
 
 This repository demonstrates core **data structures** and **algorithms** implemented in **Go (Golang)** — with a focus on performance, clarity, and idiomatic code.
 
-It includes (or will include at some point):
-- Binary Search Trees (BST)
-- Tree-based sorting (TreeSort)
-- Binary Search
-- Custom data structures (linked lists, stacks, queues)
-- Sorting algorithms (merge, quick, bubble, etc.)
-- Efficient use of Go slices, maps, and pointers
-
 ---
 
 ## 📚 Contents
 
 | Feature | Description |
 |--------|-------------|
-| `algorithms/` | Binary trees, insertion, traversal, TreeSort |
+| `tree/` | Binary trees, insertion, traversal, TreeSort |
 | `sort/` | Implementations of Merge Sort, Quick Sort, Bubble Sort |
 | `structures/` | Stacks, Queues, Linked Lists, and Circular Buffers |
 | `utils/` | Helper functions, benchmarking tools |
 | `web/`  | Handlers, Route-mapping, HTML/TEXT Templates
-| `network`  | TCP/UDP, Web Socket Programming, UNIX, Transports, Clients
-| `database` | Marshalling data, pointers, *DB type, Handlers
+| `network/`  | TCP/UDP, Web Socket Programming, UNIX, Transports, Clients
+| `data/` | Marshalling data, pointers, *DB type, Handlers
 
 ---
 
