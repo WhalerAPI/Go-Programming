@@ -1,8 +1,8 @@
 package utils
 
-func ReverseArrayCopy(s []string) []string {
+func ReverseArrayCopy[T any](s []T) []T {
 	n := len(s)
-	out := make([]string, n)
+	out := make([]T, n)
 
 	for i := 0; i < n; i++ {
 		out[n-1-i] = s[i]
