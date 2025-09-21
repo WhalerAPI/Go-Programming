@@ -1,4 +1,4 @@
-# 🧠 Golang Data Structures & Algorithms 🚧
+# 🧠 Go Programming
 
 This repository demonstrates core **data structures** and **algorithms** implemented in **Go (Golang)** — with a focus on performance, clarity, and idiomatic code.
 
