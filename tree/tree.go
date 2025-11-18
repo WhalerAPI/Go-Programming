@@ -1,3 +1,4 @@
+// Package tree implements a binary search tree and provides a function to sort a slice of integers using tree sort algorithm.
 package tree
 
 
